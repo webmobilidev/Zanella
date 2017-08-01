@@ -7,38 +7,38 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-custom-config": {
-            "PACKAGE_NAME": "com.designbest.zanella"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.designbest.zanella"
-        },
-        "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.designbest.zanella"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.designbest.zanella"
-        },
-        "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.designbest.zanella"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.designbest.zanella"
-        },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.designbest.zanella"
-        },
-        "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "com.designbest.zanella"
+            "PACKAGE_NAME": "com.zanella.zanella"
         },
         "phonegap-plugin-push": {
             "SENDER_ID": "xxxxx",
-            "PACKAGE_NAME": "com.designbest.zanella"
+            "PACKAGE_NAME": "com.zanella.zanella"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.zanella.zanella"
+        },
+        "cordova-custom-config": {
+            "PACKAGE_NAME": "com.zanella.zanella"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.zanella.zanella"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.zanella.zanella"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.zanella.zanella"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.zanella.zanella"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.zanella.zanella"
         }
     },
     "dependent_plugins": {
         "es6-promise-plugin": {
-            "PACKAGE_NAME": "com.designbest.zanella"
+            "PACKAGE_NAME": "com.zanella.zanella"
         }
     }
 }

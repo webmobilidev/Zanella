@@ -1,6 +1,14 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
+        "id": "phonegap-plugin-push.PushNotification",
+        "file": "plugins/phonegap-plugin-push/www/push.js",
+        "pluginId": "phonegap-plugin-push",
+        "clobbers": [
+            "PushNotification"
+        ]
+    },
+    {
         "id": "cordova-plugin-device.device",
         "file": "plugins/cordova-plugin-device/www/device.js",
         "pluginId": "cordova-plugin-device",
@@ -71,29 +79,21 @@ module.exports = [
         "clobbers": [
             "window.plugins.socialsharing"
         ]
-    },
-    {
-        "id": "phonegap-plugin-push.PushNotification",
-        "file": "plugins/phonegap-plugin-push/www/push.js",
-        "pluginId": "phonegap-plugin-push",
-        "clobbers": [
-            "PushNotification"
-        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-custom-config": "3.0.14",
+    "cordova-plugin-whitelist": "1.2.2",
+    "phonegap-plugin-push": "1.8.4",
     "cordova-plugin-device": "1.1.6",
+    "cordova-custom-config": "3.0.14",
     "cordova-plugin-dialogs": "1.2.1",
     "cordova-plugin-inappbrowser": "1.5.0",
     "cordova-plugin-network-information": "1.2.1",
     "cordova-plugin-statusbar": "2.2.3",
-    "cordova-plugin-whitelist": "1.2.2",
     "es6-promise-plugin": "4.1.0",
-    "cordova-plugin-x-socialsharing": "5.1.8",
-    "phonegap-plugin-push": "1.8.4"
+    "cordova-plugin-x-socialsharing": "5.1.8"
 };
 // BOTTOM OF METADATA
 });
